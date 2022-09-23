@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+{% block head %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easyPortfolio</title>
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      
+    <link rel='stylesheet' href=
+    'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link kreye kont" href="{% url 'kreyekont' %}">kreye kont</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-konekte" href="{% url 'konekte' %}">konekte</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dekonekte</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Ajoute nouvo pwoje</a>
+        </li>
+      </ul>
+      
+</head>
+{% endblock head %}
+
+{% block body %}
+<body>
+    
+</body>
+{% endblock body %}
+
+{% block footer %}
+<footer>
+
+</footer>
+{% endblock footer %}
+</html>
